@@ -23,7 +23,15 @@ def predict_label(img_path):
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    return "hello world"
+    if request.method == 'POST':
+        if request.files:
+            image = request.files['image']
+            img_path = os.path.join(app.config['UPLOAD_FOLDER'], image.filename)
+            image.save(img_path)
+            prediction = predict_label(img_path)
+            return render_template('index.html', uploaded_image=image.filename, prediction=prediction)
+
+    return render_template('index.html')
 
 @app.route('/display/<filename>')
 def send_uploaded_image(filename=''):
