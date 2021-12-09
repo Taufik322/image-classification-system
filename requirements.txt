@@ -1,5 +1,6 @@
 flask
-numpy
-opencv_python
 tensorflow-cpu
 gunicorn
+pillow
+numpy
+opencv-contrib-python-headless
