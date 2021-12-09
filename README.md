@@ -10,7 +10,7 @@ Dataset yang dipakai disini adalah Image Daun Nangka (50 gambar), dan Image Daun
 
 ## Deskripsi singkat
 
-Repository ini berisi semua file yang dibutuhkan untuk melakukan deployment model Machine Learning Image Classification menggunakan CNN (Convolutional Neural Network). Adapun model yang digunakan merupakan model untuk memprediksi gambar daun belimbing wuluh atau daun beliming.
+Repository ini berisi semua file yang dibutuhkan untuk melakukan deployment model Machine Learning Image Classification menggunakan CNN (Convolutional Neural Network). Adapun model yang digunakan merupakan model untuk memprediksi gambar daun belimbing wuluh atau daun belimbing.
 
 #
 
