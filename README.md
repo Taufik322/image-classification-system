@@ -1,4 +1,4 @@
-# Image Recognition System
+# Image Recognition System (using CNN)
 
 [![N|Python](https://www.python.org/static/img/python-logo@2x.png)](https://www.python.org)
 
@@ -53,4 +53,4 @@ Agar dapat memprediksi kucing atau anjing, data input model harus mengikuti form
 
 1. Anda akan diberikan URL untuk membuka website berupa `localhost:5000/` atau `127.0.0.1:5000/`.
 1. Buka URL dengan browser, coba masukkan gambar daun belimbing wuluh atau daun nangka yang ingin di prediksi.
-1. Anda akan diberikan prediksi bahwa pada gambar tersebut adalah gajah atau singa pada halaman website.
+1. Anda akan diberikan prediksi bahwa pada gambar tersebut adalah daun nangka atau daun belimbing wuluh pada halaman website.
